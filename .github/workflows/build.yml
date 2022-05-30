@@ -32,4 +32,4 @@ jobs:
         allowUpdates: true
         tag: "packages"
         artifacts: "./*/*.zst"
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}
