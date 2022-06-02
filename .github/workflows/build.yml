@@ -7,7 +7,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [llvm12]
+        repos: [llvm12, wash]
 
       fail-fast: false
       
