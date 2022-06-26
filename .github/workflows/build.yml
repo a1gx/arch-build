@@ -7,7 +7,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [llvm12, wash , antsword]
+        repos: [hyprland-git]
 
       fail-fast: false
       
